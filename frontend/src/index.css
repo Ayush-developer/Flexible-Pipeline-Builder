@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif; 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.menu{
+ 
+  display: flex;               /* Use flexbox for layout */
+    justify-content: space-between; /* Space between items pushes them to opposite ends */
+    align-items: center;        /* Vertically center items */
+       
+
+  background-image: linear-gradient(to right, #4c00ca, #000000);
+}
+
+.menubar{
+  display: flex;
+  justify-content: space-evenly;
+  align-items:center;
+  justify-content:end;
+}
+
+h1{
+  color:white;
+  font-size:30px
+
+}
+
+.footer {
+  background-image: linear-gradient(to right, #4c00ca, #000000);
+  height: 20vh; /* Make the footer take the full viewport height */
+  display: flex; /* Use Flexbox for layout */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+
+button {
+  background: none;          /* No background color */
+  border: none;             /* Remove border */
+  color: white;             /* White text color */
+  font-family: 'Roboto', sans-serif; /* Use a clean, modern font */
+  font-size: 16px;          /* Set a comfortable font size */
+  padding: 10px 20px;       /* Add vertical and horizontal padding */
+  cursor: pointer;          /* Change cursor to pointer on hover */
+  transition: color 0.3s;   /* Smooth transition for color change */
+}
+
+.button:hover {
+  color: #cccccc;           /* Change text color on hover for feedback */
+}
+
+.button:focus {
+  outline: none;            /* Remove outline on focus */
+}
